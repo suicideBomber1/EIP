@@ -4,7 +4,6 @@ Convolution is applying the function operation by striding the window (kernel or
 
 <p align='center'>
 <img width='200' height='200' src="https://raw.githubusercontent.com/mingruimingrui/Convolution-neural-networks-made-easy-with-keras/master/imgs/filtering-many-to-one.gif">
-Convolution operation (Source: GitHub)
  </p>
 
 
@@ -42,8 +41,7 @@ As seen in the above gif, we look at a part of a matrix and then `convolution` o
 Feature map (Activation map) is the output activation of the given filter. Each feature map will detect a feature (or a combination of features) and the location from the original input. Feature maps from different filters are stacked on one another and the process is continued depending on the architecture of the model also the extent of differentiation we expect for the input.
 
 <p align='center'>
-<img width='300' height='300' src="https://adeshpande3.github.io/assets/ActivationMap.png">
-Source: Michael Nielsen
+<img width='450' height='300' src="https://adeshpande3.github.io/assets/ActivationMap.png">
  </p>
 
 
