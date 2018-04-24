@@ -57,8 +57,8 @@ Receptive field is the region of `input space` that a particular feature is look
 
 A, B, C are three conv layers extracting one feature each. (Stride is 1, There is padding not shown in fig, filter size is 3x3)
 
-The receptive field of B (2, 2) is through A (1, 1) and A (3, 3). Therefore, the receptive field of a neuron in B in 3x3.
+The receptive field of B (2, 2) is through A (1, 1) and A (3, 3), as this element is formed from convolution of filter with (1, 1) through (3, 3) region of A. Therefore, the receptive field of a neuron in B in 3x3.
 
-Now, consider a neuron in C say (3, 3). This neuron is formed from B (2, 2) through B (4, 4), which inturn is formed from the entire A matrix. Therefore, the receptive layer of a neuron in C is 5x5.
+Now, consider a neuron in C say (3, 3). This neuron is formed from B (2, 2) through B (4, 4), which inturn is formed from the entire A matrix. Therefore, the receptive layer of a neuron in C is 5x5. Hence, the receptive field increases as we stack more and more convolution layers.
 
 
