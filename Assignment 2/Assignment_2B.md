@@ -75,8 +75,6 @@ bout += np.sum(d_output, axis=0)*lr
 bh += np.sum(d_hidden_layer, axis=0)*lr
 ```
 
-![Boom ](http://gph.is/2cxuYuL)
-
 
 
 
