@@ -62,6 +62,11 @@ With SELU the activations go to mean 0 and variance 1.  This technique beats ReL
 ### Regularization
 
 * Dropout
+
+Dropout is simple, intuituve, effective and efficient regularization technique. The idea is to randomly drop some neurons in a layer to reduce the dependency between the neurons during training phase. This improves the expressive power of each neuron and thus generalizes well and thus reduces overfitting. Dropout forces a neural network to learn more robust features that are useful in conjunction with many different random subsets of the other neurons. Because the neurons are dropped, the training time for each epoch is reduced.
+
 * Label smoothing
+
+Cross entropy loss is zero if the label is same as the assigned label. But, what if there is label noise? If the true call label 1, it teaches conviction. But, if it was smoothly labeled 0.9 or so. Then there is a chance to recover if the label was wrongly marked. This experiment shows that the model accuracy is not limited by the accuracy of its teacher, provided the teacher's errors are random.
 
 
